@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+    
+body {
+    background-color: #d7e2ff;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    background-color: #7c71ff;
+    
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+#menuNavegacao {
+    display: flex;
+    padding: 10px 20px;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+    
+}
+
+#menuNavegacao li a {
+    padding: 8px 14px;
+    border-radius: 25px;
+    text-align: center;
+    background-color: #d9d9d9;
+    color: #200065;
+    font-size: 0.8em;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+#bbnInicio {
+    background-color: #200065 !important;
+    color: white !important;
+}
+
+section {
+    padding: 20px 40px;
+}
+
+section h1,h2, h3, h4 {
+    font-family: 'Abril Fatface', serif;
+    text-align: center;
+    color: #200065;
+}
+
+.subtitulo {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2em;
+}
+.listasImagens {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 20px 0;
+}
+
+#cliente {
+    background-color: #aebfeb;
+}
+
+#artigosClientes {
+    display: flex;
+    gap: 30px;
+}
+
+#artigosClientes article {
+    background-color:  #d4e0ff;
+    padding: 20px;
+    text-align: left;
+}
+
+#artigosClientes article h4 {
+    color: #1e1e1e;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.imgClientes {
+    width: 90px;
+    margin: 10px 0;
+    border: 2px;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+table thead {
+    background-color: #200065;
+    color: white;
+}
+
+table thead th {
+    width: 25%;
+    height: 30px;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+tbody td{
+    background-color:#7c71ff;
+    color: white;
+    width: 25%;
+    height: 30px;
+    padding: 10px 10px;
+    text-align: left; 
+}
+
+form {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.form label {
+    color: #200065;
+        
+}
+
+.form input {
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #aebfeb;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.form button {
+    background-color: #200065;
+    color: white;
+    width: 100px;
+    border: #7c71ff;
+    padding: 5px;
+    align-self: center;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: gray;
+    color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    height: 50px;
+    align-items: center;
+}
